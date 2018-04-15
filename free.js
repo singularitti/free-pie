@@ -8,10 +8,8 @@ const si = require('systeminformation');
 si.mem(function (data) {
     let gigabyte = Math.pow(1024, 3);
     let freeMemory = data["free"] / gigabyte; // Not used in gigabytes
-    let usedMemory = data["used"] / gigabyte; // Used (include buffers/cache)
     let buffache = data["buffcache"] / gigabyte; // Used by buffers+cache, not applicable to Windows system
     let activeMemory = data["active"] / gigabyte; // Used actively (exclude buffers/cache)
-    let availableMemory = data["available"] / gigabyte; // Potentially available (total - active)
 
     let p = new pie(
         10,
