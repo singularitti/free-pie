@@ -1,0 +1,29 @@
+{
+  "name": "free-pie",
+  "version": "1.0.0",
+  "description": "A simple command-line pie chart plotter for memeory information",
+  "main": "index.js",
+  "dependencies": {
+    "cli-pie": "^2.4.0",
+    "systeminformation": "^3.38.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/singularitti/free-pie.git"
+  },
+  "keywords": [
+    "memory management",
+    "pie chart",
+    "command line"
+  ],
+  "author": "Qi Zhang <singularitti@outlook.com> (https://github.com/singularitti)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/singularitti/free-pie/issues"
+  },
+  "homepage": "https://github.com/singularitti/free-pie#readme"
+}
