@@ -4,7 +4,7 @@
   "description": "A simple command-line pie chart plotter for memeory information",
   "main": "lib/index.js",
   "bin": {
-    "chart": "./bin/index.js"
+    "free-pie": "./bin/index.js"
   },
   "dependencies": {
     "cli-pie": "^2.4.0",
