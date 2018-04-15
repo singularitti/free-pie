@@ -2,7 +2,10 @@
   "name": "free-pie",
   "version": "1.0.0",
   "description": "A simple command-line pie chart plotter for memeory information",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "bin": {
+    "chart": "./bin/index.js"
+  },
   "dependencies": {
     "cli-pie": "^2.4.0",
     "systeminformation": "^3.38.0"
