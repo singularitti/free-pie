@@ -12,4 +12,4 @@ $ npm i --save free-pie
 
 ## :scroll: License
 
-[MIT][license] © [Qi Zhang][https://github.com/singularitti]
+[MIT](./LICENSE) © [Qi Zhang](https://github.com/singularitti)
