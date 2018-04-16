@@ -6,9 +6,11 @@ available.
 
 ## :cloud: Installation
 
+If you have `npm` installed:
 ```sh
-$ npm i --save free-pie
+$ npm i -g free-pie
 ```
+If you do not have `npm` installed, see [here](https://www.npmjs.com/get-npm) to get `npm`.
 
 ## :scroll: License
 
