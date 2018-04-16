@@ -18,7 +18,7 @@ If you do not have `npm` installed, see [here](https://www.npmjs.com/get-npm) to
 
 Once installed, just type
 ```sh
-free-pie
+$ free-pie
 ```
 in your terminal and see!
 
